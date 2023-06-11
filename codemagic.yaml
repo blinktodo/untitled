@@ -1,0 +1,7 @@
+workflows:
+  main:
+    scripts:
+      - flutter packages get
+      - flutter build ios --release --no-codesign
+      - flutter build ipa --release --no-codesign
+      - mv build/ios/ipa/Runner.ipa build/ios/ipa/Runner_${BUILD_NUMBER}.ipa
