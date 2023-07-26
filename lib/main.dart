@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatelessWidget {
-  final String url = 'https://bitboxly.com';
+  final String url = 'https://bitxfc.com/';
 
   @override
   Widget build(BuildContext context) {
